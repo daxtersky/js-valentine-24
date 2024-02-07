@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.section__image {
+    aspect-ratio: auto;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem 0 1rem;
+    scroll-snap-align: start;
+    overflow-y: hidden;
+}
+
+.section .section__content {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.section:nth-of-type(even) .section__content {
+    transform: translateX(100%);
+}
+
+.section:nth-of-type(odd) .section__content {
+    transform: translateX(-100%);
+}
+
+.section .section__content.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.section:nth-of-type(1) {
+    background-color: #c30010;
+}
+.section:nth-of-type(2) {
+    background-color: #e7f75b;
+}
+.section:nth-of-type(3) {
+    background-color: #d1001f;
+}
+.section:nth-of-type(4) {
+    background-color: #70ffa0;
+}
+.section:nth-of-type(5) {
+    background-color: #de0a26;
+}
+.section:nth-of-type(6) {
+    background-color: #84e1fd;
+}
+.section:nth-of-type(7) {
+    background-color: #f01e2c;
+}
+.section:nth-of-type(8) {
+    background-color: #fc94fc;
+}
+.section:nth-of-type(9) {
+    background-color: #f78b6b;
+}
+.section:nth-of-type(10) {
+    background-color: #ff2c2c;
+}
+.section:nth-of-type(11) {
+    background-color: #ffcbd1;
+}
+.section:nth-of-type(12) {
+    background-color: #ee6b6e;
+}
+.section:nth-of-type(13) {
+    background-color: #f69697;
+}
+.section:nth-of-type(14) {
+    background-color: #f94449;
+}
+.section:nth-of-type(15) {
+    background-color: #c30010;
+}
+.section:nth-of-type(16) {
+    background-color: #e7f75b;
+}
+.section:nth-of-type(17) {
+    background-color: #d1001f;
+}
+.section:nth-of-type(18) {
+    background-color: #70ffa0;
+}
+.section:nth-of-type(19) {
+    background-color: #de0a26;
+}
+.section:nth-of-type(20) {
+    background-color: #84e1fd;
+}
+
