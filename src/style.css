@@ -87,14 +87,12 @@ body {
     margin-inline: 2rem;
     border-radius: 4px;
     /*  */
-    /* backdrop-filter: blur(36px) saturate(95%); */
-    /* bottom: 15px; */
+    backdrop-filter: blur(36px) saturate(95%);
+    bottom: 15px;
 }
 
 .highlight {
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    background-color: #4baa07;
+    background-color: #aa0738;
     color: white;
 }
 
@@ -134,16 +132,16 @@ body {
     background-image: linear-gradient(0deg, #ea7f7f 0%, #de0a26 100%);
 }
 .section:nth-of-type(8) {
-    background-image: linear-gradient(0deg, #8e0b0b 0%, #ea7f7f 100%);
+    background-image: linear-gradient(0deg, #e37d00 0%, #ea7f7f 100%);
 }
 .section:nth-of-type(9) {
-    background-image: linear-gradient(0deg, #e12e94 0%, #8e0b0b 100%);
+    background-image: linear-gradient(0deg, #e12e94 0%, #e37d00 100%);
 }
 .section:nth-of-type(10) {
-    background-image: linear-gradient(0deg, #993b3b 0%, #e12e94 100%);
+    background-image: linear-gradient(0deg, #5b0000 0%, #e12e94 100%);
 }
 .section:nth-of-type(11) {
-    background-image: linear-gradient(0deg, #ea7fb3 0%, #993b3b 100%);
+    background-image: linear-gradient(0deg, #ea7fb3 0%, #5b0000 100%);
 }
 .section:nth-of-type(12) {
     background-image: linear-gradient(0deg, #ce7fea 0%, #ea7fb3 100%);
