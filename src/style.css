@@ -103,7 +103,7 @@ body {
         position: relative;
     }
 
-    .section__text--below {
+    .section__text_below {
         top: 102%;
         background-color: #f0ecec;
     }
